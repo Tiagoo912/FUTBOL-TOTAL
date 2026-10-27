@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--bg:#0d0d0f;--sf:#19191c;--sf2:#242428;--tx:#f5f5f6;--mu:#9d9da6;--rd:#e5243b;--ln:#2f2f35;--ok:#2fcf7f}
+:root.light{--bg:#f1f1f3;--sf:#fff;--sf2:#ececef;--tx:#141416;--mu:#5f5f68;--rd:#c8102e;--ln:#dcdce1;--ok:#168a52}
+body{background:var(--bg);color:var(--tx);font-family:system-ui,sans-serif}
+@keyframes bl{50%{opacity:.2}}.blink{animation:bl 1.2s infinite}
+@media (prefers-reduced-motion:reduce){.blink{animation:none}}
